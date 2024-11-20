@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>A Aventura dos Gatos Exploradores</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://i.pinimg.com/736x/f4/11/e2/f411e2d7d9169ca543a9a3ec925f473c.jpg" alt="">
+            <p>Você é um gato aventureiro chamado Felix. Certo dia, enquanto explorava o bairro, você encontra um mapa que revela a localização do lendário Tesouro dos Gatos, escondido em uma antiga mansão abandonada. Para encontrar o tesouro, você deve reunir três Chaves Felinas, cada uma protegida por diferentes guardiões felinos. Sua destreza, inteligência e habilidades de gato serão essenciais para o sucesso desta missão. Você começa sua jornada no quintal de sua casa. Um gato ancião lhe entrega o mapa que marca a localização das chaves. O primeiro local é o Telhado do Mistério, onde o Gato Sábio guarda a primeira chave. Você tem duas opções:</p>
+            <button class="btn-proximo" data-proximo="1">Subir no telhado durante o dia: Enfrentar menos desafios, mas com o risco de ser visto.</button>
+            <button class="btn-proximo" data-proximo="2">Subir no telhado à noite: Ser mais furtivo, mas com mais perigos.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Após começar a subir no telhado, você encontra um grupo de gatinhos travessos que querem brincar. Para prosseguir, você deve escolher entre:</p>
+            <button class="btn-proximo" data-proximo="3">Brincar com os gatinhos: Ganhar a confiança deles e continuar a escalada.</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar os gatinhos: Continuar a escalada sem distrações.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você encontra uma passagem secreta no meio da subida. Dentro da passagem, há um enigma deixado pelo Gato Sábio que você precisa resolver para obter a primeira chave:</p>
+            <button class="btn-proximo" data-proximo="5">Resolver o enigma: Usar sua inteligência para superar o desafio.</button>
+            <button class="btn-proximo" data-proximo="6">Procurar outro caminho: Tentar encontrar uma maneira alternativa de subir.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você obteve a primeira chave felina! Parabéns, continue para mais aventuras.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você foi surpreendido por um grupo de pombos e não conseguiu continuar. Fim da jornada.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Com a primeira chave em mãos, você segue para o Jardim dos Encantos. No caminho, encontra um grupo de esquilos que precisam de ajuda:</p>
+            <button class="btn-proximo" data-proximo="7">Ajudar os esquilos: Ganhar a gratidão deles e possíveis aliados.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Ao explorar o jardim, você é surpreendido por uma chuva repentina:</p>
+            <button class="btn-proximo" data-proximo="8">Continuar explorando: Tentar evitar a chuva e seguir adiante.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>No centro do jardim, você encontra uma estátua de gato. Lá, há uma chave guardada por um gato de jardim. Para obter a segunda chave:</p>
+            <button class="btn-proximo" data-proximo="9">Conversar com o gato de jardim: Usar palavras gentis para convencer o gato a entregar a chave.</button>
+            <button class="btn-proximo" data-proximo="10">Desafiar o gato de jardim: Provar sua força e coragem.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Com duas chaves em mãos, você segue para a Mansão Abandonada. No meio do caminho, você encontra uma coruja sábia que pode oferecer ajuda.</p>
+            <button class="btn-proximo" data-proximo="7">Pedir ajuda à coruja: Ganhar recursos e informações valiosas.</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>No centro da mansão, você encontra um grande cofre trancado. Para obter a terceira chave, você precisa resolver um enigma deixado pelo último gato guardião:</p>
+            <button class="btn-proximo" data-proximo="11">Procurar outra entrada: Tentar encontrar um caminho alternativo.</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Dentro da mansão, você se depara com armadilhas antigas. Para obter a terceira chave, você precisa navegar por um labirinto cheio de desafios:</p>
+            <button class="btn-proximo" data-proximo="12">Ser ágil e cuidadoso para passar pelas armadilhas.</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Com as três chaves reunidas, você retorna ao cofre da mansão. Ao abrir o cofre, você encontra o lendário Tesouro dos Gatos. Você é celebrado como um herói por todos os gatos do bairro. Missão cumprida!</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra a passagem secreta que leva à terceira chave. Você a obtém e retorna ao cofre da mansão para completar sua missão.</p>
+            <button class="btn-proximo" data-proximo="11">Voltar ao cofre da mansão</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
